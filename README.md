@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="App/Assets/Images/logo.png" alt="Logo" width="100%">
+    <img src="app/assets/images/logo.png" alt="Logo" width="100%">
 </div>
 
 [![Release Date](https://img.shields.io/badge/Release%20Date-May%202020-green.svg)](https://shields.io/)
