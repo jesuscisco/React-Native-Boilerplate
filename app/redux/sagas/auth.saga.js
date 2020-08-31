@@ -1,8 +1,8 @@
-import { take, put, call, fork, all } from './node_modules/redux-saga/effects';
 import AsyncStorage from '@react-native-community/async-storage';
-import { LOGIN_REQUEST, REGISTER_REQUEST } from '../types';
+import { all, call, fork, put, take } from 'redux-saga/effects';
 import { authActionsCreator } from '../actions';
 import { login, signUp } from '../api';
+import { LOGIN_REQUEST, REGISTER_REQUEST } from '../types';
 
 function* loginSaga({ payload }) {
   try {
