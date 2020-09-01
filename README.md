@@ -103,7 +103,7 @@ To create a new project using the boilerplate:
 - ##### [Google Sign-In SDK Android Setup](https://github.com/react-native-community/google-signin/blob/master/docs/android-guide.md)
   For push notifications and google signin to work in the android app place your `google-services.json` into `Android/app` folder
 - ##### [Google Sign-In SDK iOS Setup](https://github.com/react-native-community/google-signin/blob/master/docs/ios-guide.md)
-  For push notifications and google signin to work in the iOS app drag your `GoogleService-Info.plist` to project folder in the xcode and place `REVERSED_CLIENT_ID` present in the `GoogleService-Info.plist` to the .env.staging and .env.production files present in the root directory
+  For push notifications and google signin to work in the iOS app drag your `GoogleService-Info.plist` to project folder in the xcode and place `REVERSED_CLIENT_ID` present in the `GoogleService-Info.plist` to the `.env.staging` and `.env.production` files present in the root directory
 - ##### [Optional][codepush android setup](https://github.com/microsoft/react-native-code-push/blob/master/docs/setup-android.md)
   For code-push to work in the android app please first [create app on app center for os="Android" and platform="React Native" ](https://appcenter.ms/) . After creating the app you will get app secret key, insert your app_secret into `android/app/src/main/assets/appcenter-config.json`. Go to the `Distribute` side menu on the app center, click code push, and generate production and staging deployment keys. Place production deployment key into file `.env.production` present in the root directory and place staging deployment key into file `.env.staging` present in the root directory
 - ##### [Optional][codepush ios setup](https://github.com/microsoft/react-native-code-push/blob/master/docs/setup-ios.md)
@@ -171,17 +171,17 @@ I looked into existing boilerplates before starting this project, and while many
 
 - `React Native Latest Stable Version (v0.62.3)`
 - `Great Architecture`
-- `React Navigation 5 Integratd`
-- `Redux Integratd`
-- `Redux Saga Integratd`
-- `Redux Persist Integratd`
+- `React Navigation 5 Integrated`
+- `Redux Integrated`
+- `Redux Saga Integrated`
+- `Redux Persist Integrated`
 - `Firebase SDK Integrated`
 - `Facebook SDK Integrated`
 - `Google Sign-in SDK Integrated`
 - `Code-Push SDK Integrated`
 - `Push Notifications Integratd`
-- `Theme Integratd`
-- `Multilingual Integratd`
-- `Splash Screen Integratd`
-- `Vector Icons Integratd`
+- `Theme Integrated`
+- `Multilingual Integrated`
+- `Splash Screen Integrated`
+- `Vector Icons Integrated`
 - `TypeScript Support`
