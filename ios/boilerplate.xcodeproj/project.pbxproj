@@ -364,6 +364,7 @@
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				F94DE2296D9F30F6F557B399 /* [CP] Copy Pods Resources */,
+				ADD1E99724FE4F7800427A17 /* Expose Environment Variables */,
 			);
 			buildRules = (
 			);
@@ -661,6 +662,24 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-boilerplate-boilerplateTests/Pods-boilerplate-boilerplateTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		ADD1E99724FE4F7800427A17 /* Expose Environment Variables */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Expose Environment Variables";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${SRCROOT}/../node_modules/react-native-config/ios/ReactNativeConfig/BuildXCConfig.rb\" \"${SRCROOT}/..\" \"${SRCROOT}/tmp.xcconfig\"\n";
 		};
 		B5068A7844405DA865DD752A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
