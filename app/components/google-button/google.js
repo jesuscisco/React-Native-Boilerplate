@@ -6,9 +6,7 @@ import { withTheme } from 'react-native-paper';
 import styles from './google.styles';
 
 // uncomment and provide webClientId
-// GoogleSignin.configure({
-//   webClientId: /* insert webClientId here present in google-services.json*/,
-// });
+GoogleSignin.configure({});
 
 function GoogleButton(props) {
   const { colors } = props.theme;
